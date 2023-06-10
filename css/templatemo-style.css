@@ -683,7 +683,9 @@ ul {
     width: 100%;
   }
   .projects-content .text-content {
-    display: none;
+    display: block;
+    overflow-y: scroll;
+    max-height: 225px; 
   }
   .contact-content .more-info {
     padding: 30px;
